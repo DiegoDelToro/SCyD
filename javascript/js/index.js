@@ -84,7 +84,7 @@ $(function() {
                 requerido: true,
                 //patron: /^(?=.*[A-Z].*[A-Z])(?=.*[!@#$&*])(?=.*[0-9].*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8}$/,
                 cond: 'valor.length>6',
-                msj: 'Debe tener 2 mayúsculas, un caracter especial, 2 dígitos, 3 minúsculas (no más de 8 caracteres)y '
+                msj: 'Debe tener 2 mayúsculas, un caracter especial, 2 dígitos, 3 minúsculas y no más de 8 caracteres'
             }
         }};
         form.liga('AJAX', config);
